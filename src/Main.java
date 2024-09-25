@@ -31,7 +31,7 @@ public class Main {
     public static char[][] putX() {
         boolean correctInput = false;
         while (!correctInput) {
-            System.out.println("Please enter the coordinates in the following format: 1 1");
+            System.out.println("Please enter the coordinates in the form: 1 1");
             String s1 = sc.next();
             String s2 = sc.next();
             int coordinate1, coordinate2;
@@ -59,7 +59,7 @@ public class Main {
     public static char[][] putO() {
         boolean correctInput = false;
         while (!correctInput) {
-            System.out.println("Please enter the coordinates in the following format: 1 1");
+            System.out.println("Please enter the coordinates in the form: 1 1");
             String s1 = sc.next();
             String s2 = sc.next();
             int coordinate1, coordinate2;
